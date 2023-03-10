@@ -1,13 +1,10 @@
-import { Form } from "./Components/Form/Form";
-
 import "./App.css";
-import Card from "./Components/Card/Card";
+import Form from "./Components/Form/Form";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Form />
-      <Card />
     </div>
   );
 }
